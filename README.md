@@ -1,5 +1,7 @@
 # AquaGuard — Smart Water Tank Monitoring System
 
+![AquaGuard project cover: a water tank and wired sensors connected through an Arduino to a local monitoring dashboard](images/project_cover.png)
+
 AquaGuard is a local Arduino Uno R3 water-tank monitoring prototype. The Uno reads the sensors and sends labeled text over USB serial at 9600 baud. A Python dashboard parses complete messages and displays the measurements in a standalone Windows app window. It does not use Wi-Fi, a cloud backend, or simulated sensor readings.
 
 ## Project photos
